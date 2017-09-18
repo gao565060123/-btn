@@ -8,7 +8,13 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "HomeToolButtonView.h"
+
+#define SCREEN_WIDTH  [[UIScreen mainScreen] bounds].size.width
+
+#define SCREEN_HEIGHT  [[UIScreen mainScreen] bounds].size.height
+
+@interface ViewController ()<HomeToolButtonViewDelegate>
 
 @end
 
@@ -17,8 +23,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    HomeToolButtonView *views = [[HomeToolButtonView alloc] initHomeExpressViewWithFrame:CGRectMake(0, 60, SCREEN_WIDTH, SCREEN_WIDTH * 0.25)];
+    views.toolButtonDelegate = self;
+    [self.view addSubview:views];
 }
 
+- (void)homeToolButtonViewClickAtIndex:(int)index
+{
+    NSLog(@"=============  %d   ===========",index);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

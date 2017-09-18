@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8B111791F6F5CEA006EF340"
+               BuildableName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn.app"
+               BlueprintName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn"
+               ReferencedContainer = "container:&#x56fe;&#x7247;&#x6587;&#x5b57;btn.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8B111921F6F5CEA006EF340"
+               BuildableName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btnTests.xctest"
+               BlueprintName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btnTests"
+               ReferencedContainer = "container:&#x56fe;&#x7247;&#x6587;&#x5b57;btn.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8B1119D1F6F5CEA006EF340"
+               BuildableName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btnUITests.xctest"
+               BlueprintName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btnUITests"
+               ReferencedContainer = "container:&#x56fe;&#x7247;&#x6587;&#x5b57;btn.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F8B111791F6F5CEA006EF340"
+            BuildableName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn.app"
+            BlueprintName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn"
+            ReferencedContainer = "container:&#x56fe;&#x7247;&#x6587;&#x5b57;btn.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F8B111791F6F5CEA006EF340"
+            BuildableName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn.app"
+            BlueprintName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn"
+            ReferencedContainer = "container:&#x56fe;&#x7247;&#x6587;&#x5b57;btn.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F8B111791F6F5CEA006EF340"
+            BuildableName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn.app"
+            BlueprintName = "&#x56fe;&#x7247;&#x6587;&#x5b57;btn"
+            ReferencedContainer = "container:&#x56fe;&#x7247;&#x6587;&#x5b57;btn.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
